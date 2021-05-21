@@ -1,0 +1,60 @@
+.solido{
+    border-style: solid;
+}
+.punteado{
+    border-style: dotted;
+}
+.guiones{
+    border-style: dashed;
+}
+.doble{
+    border-style: double;
+}
+.mixto{
+    /* 2 FORMAS */
+    /* FORMA 1*/
+    border-top-style: dotted;
+    border-right-style: double;
+    border-bottom-style: dotted;
+    border-left-style: double;
+
+    /* FORMA 2 */
+    /* Siguiendo el sentido de las agujas del reloj, empezando por el borde de arriba*/
+    border-style: dotted double dashed solid; 
+}
+
+.azul{
+    border-style: solid;
+    border-color: blue;
+}
+.rojo{
+    border-style: solid;
+    border-color: red;
+}
+.color-mixto{
+    border-style: solid;
+    border-top-color: red;
+    border-bottom-color: blue;
+}
+
+.b2px{
+    border-style: solid;
+    border-width: 2px;
+}
+.b5px{
+    border-style: solid;
+    border-width: 5px;
+}
+
+.redondeado{
+    border-style: solid;
+    border-radius: 5px;
+}
+.muy-redondeado{
+    border-style: solid;
+    border-radius: 50px;
+}
+
+.version-reducida{
+    border: 5px solid green;
+}
