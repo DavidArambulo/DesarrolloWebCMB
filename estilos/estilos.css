@@ -12,19 +12,22 @@
 
 header{
     background-color: salmon;
+    position: sticky;
+    top: 0px;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 1rem 0;
+    align-items: center;
+    padding: 10px 0;
+    background-color: blue;
 }
 
 nav ul {
-    display: flex;
     list-style: none;
-    gap: 0.5rem;
-    margin: auto 0;
+    display: flex;
+    gap: 20px;
 }
 
 h1{
@@ -33,4 +36,7 @@ h1{
 
 .wpp{
     width: 75px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
