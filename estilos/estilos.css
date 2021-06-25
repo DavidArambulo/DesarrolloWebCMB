@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    background-color: salmon;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.navegacion{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+    gap: 15px;
+}
+
+#menu-open, #menu-close{
+    color: black;
+}
+
+#menu{
+    display: none;
+}
+
+#menu:target{
+    display: block;
+}
+
+@media only screen and (min-width: 900px){
+    #menu-open, #menu-close{
+        display: none;
+    }
+    #menu{
+        display: block;
+    }
+}
