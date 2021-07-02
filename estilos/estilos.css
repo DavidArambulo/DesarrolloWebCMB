@@ -9,9 +9,92 @@ div{
 }
 
 /* TRANSFORMACIONES */
+.translate-no-animado{
+    transform: translate(-200px,15px);
+                        /* en X, en Y */
+}
+.rotate-no-animado{
+    transform: rotate(50deg);
+}
 
+.scale-no-animado{
+    transform: scale(0.5);
+}
+.skew-no-animado{
+    transform: skew(20deg);
+}
 
 /* ANIMACIONES SIMPLES */
 
+/* TODAVIA FALTA CORREGIR */
+.translate-animado{
+
+}
+.rotate-animado{
+    transition: width 0.5s;
+}
+
+.scale-animado{
+
+}
+.skew-animado{
+
+}
+
+.translate-animado:hover{
+    transform: translate(-200px,15px);
+                        /* en X, en Y */
+}
+.rotate-animado:hover{
+    width: 400px;
+    
+    /* transform: rotate(50deg); */
+}
+
+.scale-animado:hover{
+    transform: scale(0.5);
+}
+.skew-animado:hover{
+    transform: skew(20deg);
+}
 
 /* ANIMACIONES COMPLEJAS */
+
+.lineales{
+    animation-name: animacion1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    animation-timing-function: ;
+
+}
+
+.no-lineales{
+    animation: animacionMasCompleja 4s infinite;
+}
+
+@keyframes animacion1 {
+    from {
+        width: 400px;
+    }
+    to{
+        width: 200px;
+    }
+}
+@keyframes animacionMasCompleja {
+    0%{
+        width: 400px;
+        background-color: red;
+    }
+    25%{
+        width: 200px;
+        background-color: green;
+    }
+    75%{
+        width: 700px;
+    }
+    100%{
+        width: 300px;
+        background-color: blue;
+    }
+}
