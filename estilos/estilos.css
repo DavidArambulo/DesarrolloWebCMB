@@ -26,29 +26,26 @@ div{
 
 /* ANIMACIONES SIMPLES */
 
-/* TODAVIA FALTA CORREGIR */
 .translate-animado{
-
+    transition: transform 1s;
 }
 .rotate-animado{
-    transition: width 0.5s;
+    transition: transform 0.3s;
 }
 
 .scale-animado{
-
+    transition: transform 0.3s;
 }
 .skew-animado{
-
+    transition: transform 0.1s;
 }
 
 .translate-animado:hover{
     transform: translate(-200px,15px);
                         /* en X, en Y */
 }
-.rotate-animado:hover{
-    width: 400px;
-    
-    /* transform: rotate(50deg); */
+.rotate-animado:hover{    
+    transform: rotate(50deg);
 }
 
 .scale-animado:hover{
