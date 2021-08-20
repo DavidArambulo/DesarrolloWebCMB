@@ -32,20 +32,28 @@ const productos = [
     }
 ];
 
-console.log(productos);
+console.log(productos); // Muestro el array
 
+
+// Estructuras para mostrar los datos de cada uno de los productos
+
+// FOR
 for (let i = 0; i < productos.length ; i++){
     console.log(productos[i].nombre);
 }
-
+// FOREACH
 productos.forEach( producto => {
     console.log(producto.id)
 });
 
-const listaProductos = document.getElementById('lista-productos')
+// MOSTRAR ELEMENTOS EN HTML
 
-listaProductos.innerHTML = '';
+const listaProductos = document.getElementById('lista-productos') // Obtengo el elemento donde van a estar cada productos (elemento contenedor)
 
+listaProductos.innerHTML = ''; // Vacio el elemento contenedor
+
+
+// Utilizo un FOR para agregar cada uno de los componentes al elemento contenedor
 for (let i = 0; i < productos.length ; i++){
     listaProductos.innerHTML += `
     <li id='producto${productos[i].id}'>
