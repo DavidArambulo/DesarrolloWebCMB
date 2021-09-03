@@ -1,28 +1,26 @@
-{
-    "recetas":[
-        {
-            "id": 0,
-            "nombre": "receta0",
-            "preparacion": "preparacion",
-            "ingredientes": ["ingrediente1", "ingrediente2"]
-        },
-        {
-            "id": 1,
-            "nombre": "receta1",
-            "preparacion": "preparacion",
-            "ingredientes": ["ingrediente1", "ingrediente2"]
-        },
-        {
-            "id": 2,
-            "nombre": "receta2",
-            "preparacion": "preparacion",
-            "ingredientes": ["ingrediente1", "ingrediente2"]
-        },
-        {
-            "id": 3,
-            "nombre": "receta3",
-            "preparacion": "preparacion",
-            "ingredientes": ["ingrediente1", "ingrediente2"]
-        }
-    ]
-}
+[
+    {
+        "id": 0,
+        "nombre": "receta0",
+        "preparacion": "preparacion",
+        "ingredientes": ["ingrediente1", "ingrediente2"]
+    },
+    {
+        "id": 1,
+        "nombre": "receta1",
+        "preparacion": "preparacion",
+        "ingredientes": ["ingrediente1", "ingrediente2"]
+    },
+    {
+        "id": 2,
+        "nombre": "receta2",
+        "preparacion": "preparacion",
+        "ingredientes": ["ingrediente1", "ingrediente2"]
+    },
+    {
+        "id": 3,
+        "nombre": "receta3",
+        "preparacion": "preparacion",
+        "ingredientes": ["ingrediente1", "ingrediente2"]
+    }
+]
