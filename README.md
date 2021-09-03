@@ -9,7 +9,8 @@ Hice un cambio lo tienes que copiar en tu PC
 
 ## Metodos del Local y el Session Storage
 
-- sessionStorage
+- ```
+  sessionStorage
   localStorage
       .getItem(Clave)
       .setItem(Clave, valor)
@@ -17,6 +18,14 @@ Hice un cambio lo tienes que copiar en tu PC
       .removeItem(Clave)
       .length()
       .key(Indice)
-- JSON *Estos se usan para traducir de JSON a Objeto y e Objeto a JSON*
+  ```
+  
+  
+  
+- ```
+  JSON //Estos se usan para traducir de JSON a Objeto y e Objeto a JSON
       .parse(Objeto en JSON)
       .stringify(Objeto)
+  ```
+  
+  
