@@ -1,3 +1,43 @@
-.oculto{
-    visibility: hidden;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+ul li {
+    list-style: none;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.header{
+    padding: 1rem 0;
+    background-color: #e63946;
+}
+
+.header .header-navegacion{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .header-navegacion .navegacion-links{
+    display: flex;
+    gap: 1rem;/* 1rem = 16px */
+}
+
+.header .header-navegacion img{
+    width: 200px;
+    height: 75px;
+}
+
+section{
+    height: 100vh;
 }
